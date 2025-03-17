@@ -247,11 +247,4 @@ impl<'a> ser::Serializer for MapKeySerializer<'a> {
     ) -> Result<Self::SerializeStructVariant> {
         Err(key_must_be_a_string())
     }
-
-    fn collect_str<T>(self, _value: &T) -> Result<()>
-    where
-        T: ?Sized + core::fmt::Display,
-    {
-        unreachable!()
-    }
 }
