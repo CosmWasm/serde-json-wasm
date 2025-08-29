@@ -6,14 +6,14 @@
 A [serde-json] alternative for [CosmWasm] smart contracts.
 
 [serde-json]: https://crates.io/crates/serde_json
-[cosmwasm]: https://cosmwasm.com/
+[cosmwasm]: https://cosmwasm.com
+[notice-url]: NOTICE
 
 ## License
 
 Licensed under either of
 
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
-  http://www.apache.org/licenses/LICENSE-2.0)
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0) and [NOTICE][notice-url]
 - MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
 
 at your option.
